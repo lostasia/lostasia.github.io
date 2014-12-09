@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-image: url(../img/background00.jpg);
+  background-image: url(../img/background3.jpg);
   backtround-attachment: fixed;
   background-size: cover;
   font: "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
@@ -73,7 +73,7 @@ header h2 span {
 
 header .subject .social {
   text-align: center;
-  font-size: 0.8125em;
+
 }
 
 header .subject .social a {
