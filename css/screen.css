@@ -38,8 +38,8 @@ ul {
 
 body {
   background-image: url(../img/background3.jpg);
-  background-repeat: repeat-x;
   backtround-attachment: fixed;
+  background-size: cover;
   font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
   color: #fff;
 }
