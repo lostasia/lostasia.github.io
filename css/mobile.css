@@ -190,7 +190,7 @@
     width: 100%;
     text-align: center;
     top: 50%;
-    margin-top: -30px;
+    margin-top: 10px;
     display: inherit;
     color: #fff;
     font-weight: 300;
@@ -198,10 +198,7 @@
   }
 
   .design-list a span.sub {
-    font-family: "RalewayLight", Helvetica, sans-serif;
-    font-size: 0.2em;
-    margin-top: 40%;
-    font-weight: 300;
+    display: none;
   }
   .design-list a:hover img {
     opacity: 0.5;
