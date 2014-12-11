@@ -205,12 +205,10 @@
   }
 
   #m-cover {
-    float: none;
+    float: left;
   }
 
-  #m-spread{
-    float: right;
-    }
+
 
   .magazine {
     clear: right;
