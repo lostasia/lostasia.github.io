@@ -157,9 +157,13 @@
   }
 
   img {
-    width: 140px;
+    width: 120px;
     height: auto;
     margin: 0 auto 1em;
+  }
+
+  .poster{
+    float: left;
   }
 
   .design-list {
