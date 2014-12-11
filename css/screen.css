@@ -1,20 +1,50 @@
 
 @font-face{
-  font-family:ProximaNovaLight;
+  font-family:RalewayBold;
   font-weight:normal;
-  src:url("../font/ProximaNova-Light.otf") format("opentype");
+  src:url("../font/raleway/Raleway-Bold.ttf") format("truetype");
 }
 
 @font-face{
-  font-family:ProximaNovaBold;
+  font-family:RalewayLight;
   font-weight:bold;
-  src:url("../font/ProximaNova-Sbold.otf") format("opentype");
+  src:url("../font/raleway/Raleway-Light.ttf") format("truetype");
 }
 
 @font-face{
-  font-family:ProximaNovaSemibold;
+  font-family:RalewaySemibold;
   font-weight:normal;
-  src:url("../font/ProximaNova-Semibold.otf") format("opentype");
+  src:url("../font/raleway/Raleway-Semibold.ttf") format("truetype");
+}
+
+@font-face{
+  font-family:RalewayThin;
+  font-weight:normal;
+  src:url("../font/raleway/Raleway-Thin.ttf") format("truetype");
+}
+
+@font-face{
+  font-family:LMRomanSlantRegular;
+  font-weight:bold;
+  src:url("../font/Latin-Modern-Roman/lmromanslant10-regular.otf") format("opentype");
+}
+
+@font-face{
+  font-family:LMRomanSlantBold;
+  font-weight:normal;
+  src:url("../font/Latin-Modern-Roman/lmromanslant10-bold.otf") format("opentype");
+}
+
+@font-face{
+  font-family:LMRomanRegular;
+  font-weight:bold;
+  src:url("../font/Latin-Modern-Roman/lmroman10-regular.otf") format("opentype");
+}
+
+@font-face{
+  font-family:LMRomanBold;
+  font-weight:normal;
+  src:url("../font/Latin-Modern-Roman/lmroman10-bold.otf") format("opentype");
 }
 
 html {
@@ -28,8 +58,9 @@ body {
   background-image: url(../img/background3.jpg);
   backtround-attachment: fixed;
   background-size: cover;
-  font: "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'RalewayLight','LMRomanSlantRegular', Helvetica, sans-serif;
   color: #fff;
+  overflow: hidden !important;
 }
 
 header .subject {
@@ -50,7 +81,7 @@ header h2 {
   text-align: center;
   display: block;
   font-size: 3em;
-  font-family: ProximaNovaBold;
+  font-family: 'RalewaySemibold';
   font-weight: normal;
   line-height: 1em;
   padding-top: 20px;
@@ -65,7 +96,7 @@ header h2 span {
   display: block;
   font-size: 14px;
   padding-bottom: 20px;
-  font-family: ProximaNovaLight;
+  font-family: 'LMRomanRegular';
   font-weight: normal;
   color: #fff;
   letter-spacing: 0.2em;
@@ -100,20 +131,21 @@ ul li {
 
 header .menu {
   float: right;
-  margin-top: px;
+  margin-top: 15px;
   margin-right: 15px;
 }
 
 
 header .menu li {
-  float: left;
+
   padding-right: 0.8em;
 }
+
 
 header .menu li a {
   font-size: 0.875em;
   text-decoration: none;
-  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-family: 'RalewayRegular', Helvetica, sans-serif;
   display: inline-block;
   position: relative;
   color: #fff;
@@ -146,12 +178,12 @@ header .menu li a:hover::after{
 
 p.text {
   margin-bottom: 2.70em;
-  font-family: ProximaNovaSemibold;
+  font-family: 'LMRomanRegular';
   font-weight: 200;
 }
 
 h1 {
-  font-family: ProximaNovaBold:
+  font-family:'RalewayRegular';
   font-size: 3.04em;
   font-size: 3.238095em;
   letter-spacing: -0.025em;
@@ -162,18 +194,46 @@ h1 {
   margin: 0;
 }
 
+
+.mission1,.mission2,.mission3 {
+  text-align: left;
+  position: relative;
+}
+
+.title {
+  font-family: 'RalewaySemibold';
+  position: relative;
+  float: left;
+}
+
+.intro {
+  font-family: 'LMRomanSlantRegular';
+  clear: both;
+}
+.code-list a {
+  font-size: 0.875em;
+  text-decoration: none;
+  font-family: 'RalewayRegular', Helvetica, sans-serif;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  float: right;
+}
+
+
+
 footer {
-  padding-top: 4.5em;
+  padding-top: 4em;
 }
 
 footer .credits {
-  margin-top: 3.6em;
+  margin-top: 3em;
 }
 
 footer .credits p {
   font-size: 0.6em;
   color: #fff;
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   text-align: center;
   line-height: 2em;
