@@ -198,6 +198,7 @@ h1 {
 .mission1,.mission2,.mission3 {
   text-align: left;
   position: relative;
+  margin-bottom: 2em;
 }
 
 .title {
@@ -210,7 +211,7 @@ h1 {
   font-family: 'LMRomanSlantRegular';
   clear: both;
 }
-.code-list a {
+.code-list a,.essay-list a {
   font-size: 0.875em;
   text-decoration: none;
   font-family: 'RalewayRegular', Helvetica, sans-serif;
