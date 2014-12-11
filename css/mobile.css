@@ -21,7 +21,7 @@
   }
 
   header .subject {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   header .avatar {
@@ -37,7 +37,7 @@
     color: #fff;
     text-align: center;
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'RalewaySemibold';
     font-weight: normal;
     line-height: 1em;
@@ -57,7 +57,7 @@
     font-weight: normal;
     color: #fff;
     letter-spacing: 0.2em;
-    line-height: 0.8em;
+    line-height: 0.6em;
   }
 
   header .subject .social {
