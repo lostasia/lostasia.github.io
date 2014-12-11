@@ -14,7 +14,7 @@
 @font-face{
   font-family:RalewaySemibold;
   font-weight:normal;
-  src:url("../font/raleway/Raleway-Semibold.ttf") format("truetype");
+  src:url("../font/raleway/Raleway-SemiBold.ttf") format("truetype");
 }
 
 @font-face{
@@ -275,11 +275,6 @@ img {
 #m-cover {
   float: left;
 }
-
-
-
-
-
 
 footer {
   padding-top: 4em;
