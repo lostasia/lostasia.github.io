@@ -114,15 +114,14 @@
   }
 
   p.text {
-    margin-bottom: 2.70em;
+    margin-bottom: 2em;
     font-family: 'LMRomanRegular';
     font-weight: 200;
   }
 
   h1 {
     font-family:'RalewayRegular';
-    font-size: 3.04em;
-    font-size: 3.238095em;
+    font-size: 3em;
     letter-spacing: -0.025em;
     text-align: center;
     font-weight: 500;
