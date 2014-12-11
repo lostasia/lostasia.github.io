@@ -157,7 +157,7 @@
   }
 
   img {
-    width: 300px;
+    width: 280px;
     height: auto;
     margin: 0 auto 1em;
   }
@@ -169,6 +169,7 @@
   .design-list {
     line-height: 0;
     margin-bottom: 6em;
+    width: 300px;
   }
 
   .design-list a {
@@ -220,6 +221,10 @@
 
   .poster{
     clear: both;
+  }
+
+  .album {
+    clear
   }
 
 
