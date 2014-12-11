@@ -203,6 +203,10 @@
     opacity: 0.5;
   }
 
+  #m-cover {
+    float: none;
+  }
+
   footer {
     padding-top: 3em;
     padding-bottom: 3em;
