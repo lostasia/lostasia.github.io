@@ -208,6 +208,19 @@
     float: none;
   }
 
+  #m-spread{
+    float: right;
+    }
+
+  .magazine {
+    clear: right;
+  }
+
+  .book{
+    clear: left;
+  }
+
+
   footer {
     padding-top: 3em;
     padding-bottom: 3em;
