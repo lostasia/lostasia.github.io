@@ -52,6 +52,7 @@
   header h2 span {
     display: block;
     font-size: 12px;
+    padding-top:5px;
     padding-bottom: 20px;
     font-family: 'LMRomanRegular';
     font-weight: normal;
@@ -89,27 +90,15 @@
   }
 
 
-  header .menu li {
-
-    padding-right: 0.8em;
-  }
 
 
-  header .menu li a {
-    font-size: 0.875em;
-    text-decoration: none;
-    font-family: 'RalewayRegular', Helvetica, sans-serif;
-    display: inline-block;
-    position: relative;
-    color: #fff;
-  }
 
   header .menu li a::after {
-    margin-top: 30px;
+    margin-top: 20px;
     position: absolute;
     left: 0;
     width: 0%;
-    height: 2px;
+    height: 1.8px;
     background: #fff;
     content: '';
     opacity: 0;
