@@ -224,7 +224,7 @@
   }
 
   .album {
-    clear
+    clear: both;
   }
 
 
