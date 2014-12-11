@@ -12,10 +12,6 @@
     font-size: 1.2em;
   }
 
-  .design-list a {
-    width: 50%;
-    float: left;
-  }
   .design-list a.full {
     width: 100%;
   }
