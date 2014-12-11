@@ -158,9 +158,6 @@
     margin: 0 auto 1em;
   }
 
-  .poster{
-    float: left;
-  }
 
   .design-list {
     line-height: 0;
@@ -190,8 +187,8 @@
     margin-top: 5px;
     display: inherit;
     color: #fff;
-    font-weight: 300;
-    font-size: 1em;
+    font-weight: 400;
+    font-size: 1.2em;
   }
 
   .design-list a span.sub {
@@ -207,21 +204,7 @@
 
 
 
-  .magazine {
-    clear: right;
-  }
 
-  .book{
-    clear: both;
-  }
-
-  .poster{
-    clear: both;
-  }
-
-  .album {
-    clear: both;
-  }
 
 
   footer {
