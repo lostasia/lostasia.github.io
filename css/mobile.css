@@ -44,15 +44,10 @@
     padding-top: 20px;
   }
 
-  h2{
-    margin:0;
-    padding:0
-  }
-
   header h2 span {
     display: block;
     font-size: 12px;
-    padding-top:5px;
+    padding-top:10px;
     padding-bottom: 20px;
     font-family: 'LMRomanRegular';
     font-weight: normal;
@@ -69,6 +64,8 @@
   header .subject .social a {
     display: inline-block;
     transform: scale(0.1, 0.1);
+    width: 20px;
+    height: 20px;
     color: #fff;
   }
 
