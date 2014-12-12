@@ -60,7 +60,7 @@
   header .subject .social a {
     display: inline-block;
     transform: scale(0.1, 0.1);
-    font-size: 1em;
+    font-size: 0.6em;
     width: 20px;
     height: 20px;
     color: #fff;
